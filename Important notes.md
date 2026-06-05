@@ -36,3 +36,27 @@ Process:
 
 Application:
 Useful in network security and resource allocation.
+
+
+# Modbus Dataset Summary
+
+Dataset:
+Modbus Traffic Dataset
+
+Purpose:
+Industrial IoT Attack Detection
+
+Features:
+- Source IP
+- Destination IP
+- Protocol
+- Packet Length
+- Timestamp
+
+Attack Types:
+- DoS
+- Scanning
+- Injection
+
+Use:
+Can be used to train ML models for attack detection and network monitoring.
