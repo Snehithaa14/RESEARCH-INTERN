@@ -15,3 +15,10 @@ env = simpy.Environment()
 env.process(normal_device(env))
 env.process(attacker(env))
 env.run(until=20)
+
+Expected Output:
+Time 0: Device sends packet
+Time 0: Attacker sends fake packet
+Time 2: Device sends packet
+Time 4: Device sends packet
+Time 5: Attacker sends fake packet
