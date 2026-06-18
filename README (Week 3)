@@ -1,0 +1,33 @@
+# Week 3 - Game-Theoretic Approaches for Cybersecurity
+
+## Topics Learned
+
+- Nash Equilibrium
+- Stackelberg Game
+- Utility Functions
+- Payoff Functions
+- Risk Assessment
+- Resource Allocation
+
+## Implemented Components
+
+### Stackelberg Defender
+Initial leader-follower strategy model.
+
+### Nash Defender
+Basic equilibrium-based defender model.
+
+### Payoff Engine
+Reward and penalty calculation framework.
+
+## Outputs
+
+- Preliminary Simulation Results
+- Payoff Analysis
+- Strategy Comparison
+
+## Status
+
+Implementation in Progress
+
+Large-scale experiments and performance evaluation will be completed in the upcoming weeks.
