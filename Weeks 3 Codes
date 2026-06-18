@@ -1,0 +1,33 @@
+1. stackelberg_defender.py
+
+class StackelbergDefender:
+    def __init__(self):
+        self.strategy = "Monitor High Risk Nodes"
+    def choose_action(self):
+        return self.strategy
+defender = StackelbergDefender()
+print("Defender Strategy:", defender.choose_action())
+
+
+
+2. nash_defender.py
+
+class NashDefender:
+    def __init__(self):
+        self.strategy = "Balanced Monitoring"
+    def choose_action(self):
+        return self.strategy
+defender = NashDefender()
+print("Defender Strategy:", defender.choose_action())
+
+
+
+3. payoff_engine.py
+
+def calculate_payoff(detection, attack_success):
+    if detection:
+        return 10
+    if attack_success:
+        return -5
+    return 0
+print("Payoff:", calculate_payoff(True, False))
