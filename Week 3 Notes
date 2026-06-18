@@ -1,0 +1,66 @@
+1. game_theory_notes.md
+
+# Game Theory Notes
+## Nash Equilibrium
+A state where no player can improve their outcome by changing strategy alone.
+Applications:
+- Cybersecurity
+- Resource allocation
+- Network defense
+
+## Strategic Decision Making
+Players select strategies to maximize rewards while minimizing losses.
+
+2. stackelberg_notes.md
+
+# Stackelberg Game Notes
+## Leader-Follower Model
+Leader:
+Defender
+Follower:
+Attacker
+Process:
+1. Defender chooses a strategy.
+2. Attacker observes the strategy.
+3. Attacker responds.
+
+Advantages:
+- Proactive defense
+- Better resource allocation
+- Attack prediction
+
+3. payoff_function_notes.md
+
+# Payoff Functions
+Purpose:
+Evaluate attacker and defender strategies.
+Example:
+Defender detects attack:
++10 reward
+Attack succeeds:
+-5 penalty
+False alarm:
+-2 penalty
+Payoff values influence strategy selection.
+
+4. security_notes.md
+
+# Cybersecurity Decision Making
+Topics Studied
+- Attack Prediction
+- Risk Assessment
+- Resource Allocation
+- Dynamic Monitoring
+
+Metrics
+- Detection Rate
+- Compromised Ratio
+- Average Risk Score
+- Network Survival Rate
+
+8. simulation_results.csv
+
+Model,Detection Rate,Compromised Ratio,Risk Score
+Nash Defender,77,0.25,0.44
+Stackelberg Defender,83,0.19,0.37
+
