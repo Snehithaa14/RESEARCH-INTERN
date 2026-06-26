@@ -1,0 +1,20 @@
+#simulation_results.csv
+
+Model,Detection Rate,Compromised Ratio,Risk Score
+Stackelberg,85,0.17,0.34
+Nash,79,0.23,0.41
+
+
+#performance_analysis.md
+
+1.Performance Analysis
+Metrics Used
+
+- Detection Rate
+- Compromised Ratio
+- Average Risk Score
+
+2.Observation
+
+1.The Stackelberg Defender achieved a higher detection rate and a lower compromised ratio compared to the Nash Defender during the preliminary simulations.
+2.The comparison indicates that payoff-based leader-follower strategies may improve defensive performance. Larger-scale experiments are planned for future work.
