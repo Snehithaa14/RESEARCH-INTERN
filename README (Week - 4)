@@ -1,0 +1,27 @@
+# Week 4 – Performance Evaluation of Game-Theoretic Defender Models
+
+## Topics Covered
+
+- Stackelberg Strategy Refinement
+- Nash Strategy Evaluation
+- Detection Rate Analysis
+- Compromised Ratio Analysis
+- Performance Comparison
+- Data Visualization
+
+## Implemented Components
+
+- Performance Metrics Module
+- Strategy Comparison
+- Basic Visualization
+- Preliminary Performance Analysis
+
+## Outputs
+
+- Detection Rate Comparison
+- Simulation Results
+- Performance Analysis Report
+
+## Status
+
+Basic evaluation completed. Larger simulations and detailed analysis will be continued in the following weeks.
