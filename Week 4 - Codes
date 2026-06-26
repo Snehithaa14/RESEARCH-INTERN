@@ -1,0 +1,61 @@
+1. performance_metrics.py
+
+def calculate_detection_rate(detected, total_attacks):
+    return (detected / total_attacks) * 100
+
+def calculate_compromised_ratio(compromised, total_nodes):
+    return compromised / total_nodes
+
+detected = 17
+total_attacks = 20
+
+compromised = 4
+total_nodes = 25
+
+print("Detection Rate:", calculate_detection_rate(detected, total_attacks), "%")
+print("Compromised Ratio:", calculate_compromised_ratio(compromised, total_nodes))
+
+
+
+
+2. strategy_comparison.py
+
+stackelberg = {
+    "Detection Rate": 85,
+    "Compromised Ratio": 0.17
+}
+
+nash = {
+    "Detection Rate": 79,
+    "Compromised Ratio": 0.23
+}
+
+print("Strategy Comparison")
+
+print("\nStackelberg")
+for key, value in stackelberg.items():
+    print(key, ":", value)
+
+print("\nNash")
+for key, value in nash.items():
+    print(key, ":", value)
+
+
+
+
+3. visualization.py
+
+import matplotlib.pyplot as plt
+
+models = ["Stackelberg", "Nash"]
+detection = [85, 79]
+
+plt.bar(models, detection)
+
+plt.title("Detection Rate Comparison")
+
+plt.ylabel("Detection Rate (%)")
+
+plt.savefig("strategy_comparison.png")
+
+plt.show()
