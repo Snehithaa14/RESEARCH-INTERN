@@ -1,0 +1,78 @@
+###dataset_loader.py###
+
+"""
+Loads the Modbus dataset.
+Reads CSV file.
+Displays dataset information.
+Checks missing values.
+"""
+
+###data_preprocessing.py###
+
+"""
+Preprocesses dataset.
+Tasks
+Remove Null Values
+Encode Labels
+Normalize Features
+Save Clean Dataset
+"""
+
+###feature_selection.py###
+
+"""
+Select important features.
+Packet Rate
+Protocol
+Source IP
+Destination IP
+Attack Label
+Risk Score
+"""
+
+###decision_tree.py###
+
+"""
+Train Decision Tree.
+Fit Model
+Predict
+Evaluate Accuracy
+"""
+
+###random_forest.py###
+
+"""
+Train Random Forest.
+Predict attacks
+Evaluate metrics
+Store results
+"""
+
+###svm_classifier.py###
+
+"""
+Support Vector Machine
+Train
+Predict
+Evaluate
+"""
+
+###model_evaluation.py###
+
+"""
+Evaluation Metrics
+Accuracy
+Precision
+Recall
+F1 Score
+Confusion Matrix
+"""
+
+###compare_models.py###
+
+"""
+Compare
+Decision Tree
+Random Forest
+SVM
+Select Best Model
