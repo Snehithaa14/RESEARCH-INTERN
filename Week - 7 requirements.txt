@@ -1,0 +1,37 @@
+###bayesian_game.py###
+
+"""
+Bayesian Game
+Players
+Strategies
+Probability
+Expected Payoff
+"""
+
+###shap_analysis.py###
+
+"""
+Explain AI predictions.
+Important Features
+Risk Explanation
+Feature Importance
+"""
+
+###trust_management.py###
+
+"""
+Assign Trust Score
+Trusted Node
+Suspicious Node
+Malicious Node
+"""
+
+###dynamic_risk_engine.py###
+
+"""
+Update Risk
+Real Time
+Low
+Medium
+High
+"""
