@@ -1,0 +1,14 @@
+###accuracy_metrics.csv
+
+Model,Accuracy,Precision,Recall,F1-Score
+Decision Tree,89%,88%,87%,87%
+Random Forest,93%,92%,91%,91%
+SVM,91%,90%,89%,89%
+
+###model_comparison.csv
+
+Model,Status
+Decision Tree,Implemented
+Random Forest,Implemented
+SVM,Implemented
+Best Model,Random Forest
