@@ -1,0 +1,26 @@
+###mlp_model.py###
+
+"""
+Multi Layer Perceptron
+Train Model
+Predict Attack
+Evaluate Accuracy
+"""
+
+###risk_prediction.py###
+
+"""
+Predict
+Attack Probability
+Risk Level
+Node Classification
+"""
+
+###performance_analysis.py###
+
+"""
+Detection Rate
+Risk Score
+Protected Nodes
+Performance Graphs
+"""
