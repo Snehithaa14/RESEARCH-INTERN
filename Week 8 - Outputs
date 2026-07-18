@@ -1,0 +1,35 @@
+###final_framework.md###
+
+Final Intelligent Framework
+
+Modbus Dataset
+↓
+Machine Learning
+↓
+Game Theory
+↓
+Explainable AI
+↓
+Trust Management
+↓
+Dynamic Risk Engine
+↓
+6G Scheduling using Sionna
+↓
+Digital Twin
+↓
+Reinforcement Learning
+↓
+Secure Intelligent IoT Network
+
+###future_work.md###
+
+# Future Work
+
+- Implement Bayesian Game completely.
+- Integrate SHAP with Machine Learning.
+- Build the Trust Management module.
+- Develop the Dynamic Risk Engine.
+- Integrate Sionna for 6G scheduling.
+- Create a Digital Twin of the IoT network.
+- Implement Reinforcement Learning using Q-Learning and DQN.
