@@ -1,0 +1,15 @@
+###performance_metrics.csv###
+
+Metric,Value
+Detection Rate,91%
+Average Risk,0.26
+Protected Nodes,43
+
+###risk_prediction.csv###
+
+Node,Risk Level
+Node 1,Low
+Node 2,High
+Node 3,Medium
+Node 4,Low
+Node 5,High
